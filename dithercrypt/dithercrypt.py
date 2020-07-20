@@ -192,7 +192,7 @@ def encrypt4(img_ab, img_ac, img_ad, img_bc, img_bd, img_cd):
     return (out_a, out_b, out_c, out_d)
 
 commands = [
-    ('encrypt2', 2, 2, encrypt2),
+    ('encrypt2', 1, 2, encrypt2),
     ('steg2', 3, 2, steg2),
     ('encrypt3', 3, 3, encrypt3),
     ('encrypt4', 6, 4, encrypt4),
